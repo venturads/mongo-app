@@ -17,5 +17,5 @@ app.listen(port, (err) => {
   if(err){
     console.log('we got bugs', err); 
   }
-  console.log('server gots ears on ${port}')
+  console.log('server gots ears on ' + port);
 });
